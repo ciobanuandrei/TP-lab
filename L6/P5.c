@@ -10,9 +10,9 @@ void sortare()
 			for(j=0;j<n-i-1;j++)
 			if (w[j] > w[j+1])
 			{
-				aux = w[i];
-				w[i] = w[i + 1];
-				w[i + 1] = aux;
+				aux = w[j];
+				w[j] = w[j + 1];
+				w[j + 1] = aux;
 			
 			}
 
